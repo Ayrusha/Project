@@ -198,17 +198,30 @@ body{
     }
 
     .container{
-        max-width: 500px;
+        max-width: 550px;
+         margin: 0 auto;
     }
     
     .header{
         gap: 30px;
+        margin-bottom: 20PX;
     }
 
     .header_nav{
         display: none;
     }
 
+        .main_input {
+            height: 45px;
+            width: 187px;
+        }
+    
+        .main_button {
+            height: 45px;
+            width: 150px;
+        }
+
+                 
     .main{
         text-align: center;
     }
@@ -220,11 +233,6 @@ body{
 
     .main_text{
         margin: 18px auto;
-    }
-
-    .main_img{
-        margin-top: 40px;
-        padding: 0 0 30px;
     }
 
     .grow{
@@ -243,4 +251,11 @@ body{
     .commerce_title{
         margin-bottom: 40px;
     }
+
+    .footer{
+        max-width: 550px;
+        margin: 20PX AUTO;
+    }
 }
+
+
